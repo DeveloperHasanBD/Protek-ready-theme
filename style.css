@@ -1,0 +1,296 @@
+/*
+Theme Name: Redapple
+Theme URI: https://www.red-apple.it/
+Author: Red Apple International
+Author URI: https://www.red-apple.it/
+GitHub Theme URI: https://www.red-apple.it/
+Description: The renowned WordPress starter theme framework that combined Underscores and Bootstrap. Trusted by more than 100,000 developers for building handcrafted, custom WordPress sites.
+Version: 1.0.3
+Requires at least: 5.0
+Tested up to: 5.8
+Requires PHP: 5.2
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: redapple
+Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, theme-options, translation-ready
+
+redapple WordPress Theme, (C) 2021 Howard Development & Consulting, LLC
+redapple is distributed under the terms of the GNU GPL.
+
+Resource Licenses:
+redapple is based on Underscores https://underscores.me/, (C) Automattic, Inc.
+Font Awesome: https://fontawesome.com/v4.7/license/ (Font: SIL OFL 1.1, (S)CSS: MIT)
+Bootstrap: https://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (MIT)
+WP Bootstrap Navwalker by Edward McIntyre & William Patton: https://github.com/twittem/wp-bootstrap-navwalker (GNU GPLv3)
+*/
+
+/*
+Do not modify the parent redapple theme. Instead, download a copy of the redapple Child starter theme and do all your development within the child theme.
+Full developer documentation: https://docs.redapple.com
+*/
+.vc_row.wpb_row.vc_row-fluid {
+    margin: 0;
+}
+
+.vc_column-inner {
+    padding: 0 !important;
+}
+
+/* end basic  */
+
+.single-collection {
+    position: relative;
+    z-index: 6;
+}
+
+.single-collection>a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+}
+
+.display_special_term .single-checkbox {
+    margin-top: 15px;
+}
+
+.display_special_term .single-checkbox:first-child {
+    margin-top: 8px;
+}
+
+.news-image-box img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.all-newslist-main .card .card-body .news-short-box h4 {
+    text-align: left;
+}
+
+ol.breadcrumb span {
+    text-transform: uppercase;
+    color: var(--black);
+    font-family: var(--opensans-400);
+    font-size: 18px;
+    line-height: normal;
+    transition: var(--transition-4-einout);
+    -webkit-transition: var(--transition-4-einout);
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+span.current-item {
+    font-family: var(--opensans-700) !important;
+    text-transform: uppercase;
+    color: var(--black);
+    padding-left: 5px;
+}
+
+.wpcf7-submit {
+    background: var(--accordion-head-bg);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 15px 19px;
+    border: none;
+    outline: none;
+    color: var(--black);
+    font-family: var(--opensans-400);
+    font-size: 18px;
+    line-height: 100%;
+    text-transform: uppercase;
+    transition: var(--transition-4-einout);
+    -webkit-transition: var(--transition-4-einout);
+}
+
+.wpcf7-submit:hover {
+    background: var(--hover-color);
+    color: var(--white-color);
+}
+
+span.wpcf7-not-valid-tip {
+    margin-top: -40px;
+}
+
+.form-check span.wpcf7-not-valid-tip {
+    margin-top: 0px;
+}
+
+span.wpcf7-list-item.first.last {
+    margin: 0;
+}
+
+span.wpcf7-list-item-label {
+    margin-left: 10px;
+    display: block;
+}
+
+.contatti-from-main .form-check label {
+    display: flex;
+    align-items: self-end;
+}
+
+.contatti-submit p input {
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+
+a.address_not_click {
+    pointer-events: none;
+}
+
+.category-tag.display_term_name {
+    position: relative;
+}
+
+.category-tag.display_term_name a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.display_term_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.common-single-collection {
+    position: relative;
+}
+
+.common-single-collection>a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.revers-single-grid {
+    position: relative;
+}
+
+.revers-single-grid>a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.revers-single-grid>a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+section.homenews-slider-main .image-box img {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.newsdetails-main .card .card-body {
+    padding-left: 20px;
+}
+
+.single-collection:hover .content {
+    margin-top: -8px;
+}
+
+section.all-newslist-main .card-body {
+    padding-left: 20px;
+    padding-right: 0px;
+}
+
+.remobe_bar line_bar {
+    display: none;
+}
+
+
+.remobe_bar span {
+    padding-left: 0 !important;
+}
+
+.current_page_item>a,
+.current-menu-item>a {
+    border-bottom: 5px solid var(--meroon) !important;
+}
+
+.megamenu-links-wrapper h4>a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    display: block;
+    border: none !important;
+}
+
+.megamenu-links-wrapper h4 {
+    position: relative;
+}
+
+.megamenu-links-wrapper h4>a:hover {
+    border: none !important;
+}
+
+li.search_left_padding {
+    margin-left: -27px;
+}
+
+.megamenu-main .megamenu-links-wrapper ul li.megamenu-parent-li a br {
+    display: none;
+}
+
+ul#menu-chi-siamo-mega-menu {
+    gap: 0;
+}
+
+.chi_siamo_mg_menu {
+    margin-bottom: 0;
+}
+
+.search-result-lists a br {
+    display: none;
+}
+
+button#FloatingContact a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+ol.breadcrumb span:first-child>a {
+    pointer-events: none;
+}
+
+@media all and (max-width: 1600px) {
+    li.search_left_padding {
+        margin-left: -10px;
+    }
+}
+
+@media all and (max-width: 991px) {
+    .contatti-submit p input {
+        width: 90%;
+        margin: auto;
+        display: block;
+    }
+
+    .chisiamo-description-main {
+        padding: 70px 0px;
+    }
+}
